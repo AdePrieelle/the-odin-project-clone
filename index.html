@@ -4,14 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;display=swap" rel="stylesheet">
+    <style type="text/css">
+    @font-face {
+      font-family: "Norse";
+      src: url(assets/fonts/norsebold.otf);
+    }
+    </style>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <title>The Odin Project</title>
   </head>
   <body>
     
-    <nav class="navbar">
-      <div class="navbar-logo">logo</div>
-      <div class="navbar-links">links</div>
+    <nav class="navbar dp-flex jc-space-between ai-center">
+      <div class="navbar-brand dp-inline-block">
+        <a href="#" class="navbar-brand-logo dp-flex ai-center text-decoration-none">
+          <img class="logo-img" src="https://www.theodinproject.com/assets/odin-logo-2d729f16279e9fc3b58ce847eacf07f883bdfc95eb23bb5064ed59d36ef551d6.svg" alt="Logo">
+          <div class="logo-text dp-inline-block text-tf-u fw-b">The Odin Project</div>
+        </a>
+      </div>
+      <div class="navbar-links dp-none">
+        <ul class="navbar-links-list dp-flex">
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link text-decoration-none fw-b fs-1-em">Curriculum</a>
+          </li>
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link dropdown-toggle text-decoration-none fw-b fs-1-em">Community</a>
+          </li>
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link text-decoration-none fw-b fs-1-em">About</a>
+          </li>
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link text-decoration-none fw-b fs-1-em">FAQ</a>
+          </li>
+          <li class="navbar-links-list-item-link navbar-links-list-divider dp-flex fd-column jc-center ac-center">
+            |
+          </li>
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link text-decoration-none fw-b fs-1-em">Sign Up</a>
+          </li>
+          <li class="navbar-links-list-item dp-flex fd-column jc-center ac-center">
+            <a href="#" class="navbar-links-list-item-link text-decoration-none fw-b fs-1-em">Log In</a>
+          </li>
+        </ul>
+      </div>
+      <span class="navbar-toggler-icon-mobile dp-block"></span>
     </nav>
 
     <div class="main">
