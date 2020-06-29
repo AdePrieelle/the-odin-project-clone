@@ -19,8 +19,14 @@ html {
 @import 'partials/visual';
 @import 'partials/navbar';
 
+
+// Navbar
+
 .navbar {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	@media screen and (min-width: 768px) {
+		margin-bottom: 50px;
+	}
 	padding: 0 20px;
 	line-height: 24px;
 	@media screen and (min-width: 768px) {
@@ -106,6 +112,75 @@ html {
 		display: none;
 		}
 }
+
+// Main header hero
+
+.main {
+	color: rgb(33, 37, 41);
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.main-header-hero {
+	background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.main-header {
+	padding-bottom: 3.75rem;
+}
+
+.main-header-heading {
+	margin-bottom: 0;
+	max-width: 100%;
+	@media screen and (min-width:576px) {
+		width: 80%;
+		margin: 0 auto;
+	}
+	padding-bottom: 1.875rem;
+	color: #ce973e;
+	font-size: 36px;
+	letter-spacing: 0.4px;
+	line-height: 43.2px;
+}
+
+.main-header-subheading {
+	padding-bottom: 4.375rem;
+	color: rgba(74,74,74,0.7);
+	font-size: 1.125rem;
+	letter-spacing: 0.2px;
+	margin: 0;
+	line-height: 1.88;
+}
+
+.main-header-button {
+	padding: 1rem 2.5rem;
+	@media screen and (min-width: 768px) {
+		padding: 1rem 3.5rem;
+	}
+	background-color: #6abfc3;
+	border-radius: 0.2em;
+	box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+	color: #fff;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	line-height: 1.5;
+}
+
+.hero-image {
+	vertical-align: middle;
+	border-style: none;
+}
+
+// How it works
+
 
 
 

@@ -1776,9 +1776,12 @@ h6 {
   text-decoration: none; }
 
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 0 20px;
   line-height: 24px; }
+  @media screen and (min-width: 768px) {
+    .navbar {
+      margin-bottom: 50px; } }
   @media screen and (min-width: 768px) {
     .navbar {
       padding: 0 168px; } }
@@ -1851,6 +1854,63 @@ h6 {
   @media screen and (min-width: 768px) {
     .navbar-toggler-icon-mobile {
       display: none; } }
+
+.main {
+  color: #212529;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.main-header-hero {
+  background-image: linear-gradient(to bottom, #fff, #eee); }
+
+.main-header {
+  padding-bottom: 3.75rem; }
+
+.main-header-heading {
+  margin-bottom: 0;
+  max-width: 100%;
+  padding-bottom: 1.875rem;
+  color: #ce973e;
+  font-size: 36px;
+  letter-spacing: 0.4px;
+  line-height: 43.2px; }
+  @media screen and (min-width: 576px) {
+    .main-header-heading {
+      width: 80%;
+      margin: 0 auto; } }
+
+.main-header-subheading {
+  padding-bottom: 4.375rem;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  margin: 0;
+  line-height: 1.88; }
+
+.main-header-button {
+  padding: 1rem 2.5rem;
+  background-color: #6abfc3;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  line-height: 1.5; }
+  @media screen and (min-width: 768px) {
+    .main-header-button {
+      padding: 1rem 3.5rem; } }
+
+.hero-image {
+  vertical-align: middle;
+  border-style: none; }
 
 /*
 Start watching for compiling scss to css
