@@ -1775,6 +1775,12 @@ h6 {
 .text-decoration-none {
   text-decoration: none; }
 
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529; }
+
 .navbar {
   margin-bottom: 30px;
   padding: 0 20px;
@@ -1911,6 +1917,106 @@ h6 {
 .hero-image {
   vertical-align: middle;
   border-style: none; }
+
+.how-it-works {
+  padding-top: 60px;
+  margin-bottom: 70px;
+  min-height: 400px; }
+  @media screen and (min-width: 768px) {
+    .how-it-works {
+      padding-top: 100px; } }
+
+.how-it-works-header {
+  max-width: 600px;
+  margin-bottom: 3em;
+  color: #212529; }
+  @media screen and (min-width: 768px) {
+    .how-it-works-header {
+      margin-bottom: 100px; } }
+
+.how-it-works-header-heading-paragraph {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media screen and (min-width: 576px) {
+    .how-it-works-header-heading-paragraph {
+      max-width: 540px; } }
+  @media screen and (min-width: 768px) {
+    .how-it-works-header-heading-paragraph {
+      max-width: 720px; } }
+  @media screen and (min-width: 1200px) {
+    .how-it-works-header-heading-paragraph {
+      max-width: 1140px; } }
+
+.how-it-works-header-heading {
+  margin-bottom: 36px;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  margin-top: 0; }
+
+.how-it-works-header-paragraph {
+  padding-top: 1em;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  margin: 0;
+  line-height: 1.88;
+  font-weight: 400; }
+
+.how-its-works-category-h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2; }
+
+.how-it-works-description {
+  padding: 0 32px; }
+  @media screen and (min-width: 480px) {
+    .how-it-works-description {
+      padding: 0 72px; } }
+  @media screen and (min-width: 768px) {
+    .how-it-works-description {
+      padding: 0; } }
+
+.how-it-works-description-paragraph {
+  margin: 0;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88; }
+
+.how-it-works-categories {
+  max-width: 1080px; }
+  @media screen and (min-width: 768px) {
+    .how-it-works-categories {
+      flex-direction: row; } }
+
+.how-its-works-category {
+  padding: 1em;
+  flex: 1; }
+
+.how-it-works-category-image {
+  height: 80px;
+  vertical-align: middle;
+  border-style: none; }
+  @media screen and (min-width: 480px) {
+    .how-it-works-category-image {
+      height: 120px; } }
+  @media screen and (min-width: 768px) {
+    .how-it-works-category-image {
+      height: 165px; } }
+
+.curriculum-details {
+  background: #f3f3f3; }
 
 /*
 Start watching for compiling scss to css
