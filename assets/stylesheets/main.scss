@@ -32,6 +32,9 @@ body {
 
 .navbar {
 	position: fixed;
+	@media screen and (min-width: 768px) {
+		position: static;
+	}
 	width: 100%;
 	z-index: 1;
 	background-color: white;
@@ -133,7 +136,7 @@ body {
 		padding-top: 100px;
 	}
 	@media screen and (min-width: 768px) {
-		padding-top: 144px;
+		padding-top: 0;
 	}
 	color: rgb(33, 37, 41);
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
