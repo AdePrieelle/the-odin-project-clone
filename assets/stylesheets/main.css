@@ -2160,6 +2160,178 @@ body {
     .button-get-started {
       padding: 1rem 3.5rem; } }
 
+.success-stories {
+  background-image: linear-gradient(to bottom, #fff, #eee); }
+
+.success-stories-title {
+  padding-top: 50px;
+  letter-spacing: 0.3px; }
+  @media screen and (min-width: 480px) {
+    .success-stories-title {
+      padding-top: 70px; } }
+
+.success-stories-title-h2 {
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0; }
+
+.success-stories-container {
+  max-width: 1280px;
+  min-height: 400px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 20px auto 0 auto; }
+  @media screen and (min-width: 480px) {
+    .success-stories-container {
+      margin-top: 100px; } }
+  @media screen and (min-width: 1200px) {
+    .success-stories-container {
+      flex-direction: row;
+      flex-wrap: wrap; } }
+
+.success-story {
+  display: flex;
+  padding: 0 26px 0 26px;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto; }
+  @media screen and (min-width: 480px) {
+    .success-story {
+      padding: 0 0 36px 0; } }
+  @media screen and (min-width: 1200px) {
+    .success-story {
+      flex-basis: 49.9%;
+      flex-grow: 0;
+      flex-shrink: 1;
+      max-width: none; } }
+
+.success-story:nth-child(3),
+.success-story:nth-child(4) {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .success-story:nth-child(3),
+    .success-story:nth-child(4) {
+      display: flex; } }
+
+.success-story-photo {
+  display: none;
+  text-align: center;
+  padding-top: 16px; }
+  @media screen and (min-width: 480px) {
+    .success-story-photo {
+      display: flex;
+      justify-content: center;
+      flex-basis: 100px; } }
+
+.success-story-photo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.success-story-content {
+  flex: 1; }
+
+.success-story-content-details {
+  height: 90px;
+  display: flex;
+  font-display: row;
+  align-items: center; }
+  @media screen and (min-width: 480px) {
+    .success-story-content-details {
+      height: auto; } }
+
+.success-story-content-details-paragraph {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  margin: 0;
+  line-height: 1.88;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.success-story-content-details-paragraph-link {
+  color: #ce973e;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.88; }
+
+.success-story-content-paragraph {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.88; }
+
+.success-stories-read-more {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #212529; }
+
+.success-stories-read-more-link {
+  text-decoration: underline;
+  color: rgba(74, 74, 74, 0.7);
+  background-color: transparent;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.success-stories-cta {
+  font-weight: 100;
+  padding: 5em 2.5em;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529; }
+
+.success-stories-cta-heading {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.75rem;
+  line-height: 1.5em;
+  margin: 0 auto 1rem;
+  max-width: 25em;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  @media screen and (min-width: 480px) {
+    .success-stories-cta-heading {
+      font-size: 2.2em; } }
+
+.success-stories-cta-subheading {
+  font-weight: normal;
+  margin-bottom: 2.5em;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88; }
+
+.success-stories-cta-button {
+  background-color: #6abfc3;
+  padding: 1rem 2.5rem;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none; }
+  @media screen and (min-width: 768px) {
+    .success-stories-cta-button {
+      padding: 1rem 3.5rem; } }
+
 /*
 Start watching for compiling scss to css
 sass --watch main.scss:main.css
